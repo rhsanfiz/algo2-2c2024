@@ -1,0 +1,26 @@
+
+
+
+
+
+tipos:    
+    tipo sistema
+    tipo ciudad: 
+        guarda:
+            id
+            ganancia
+            perdida
+
+
+        metodos:
+            devuelveGanancia() -> int
+            devuelvePerdida() -> int
+            devuelveSuperavit() -> int
+            masGananciaQue(ciudad) -> boolean
+            masPerdidaQue(ciudad) -> boolean
+            masSuperavitQue(ciudad) -> boolean
+            igualGananciaQue(ciudad) -> boolean
+            igualPerdidaQue(ciudad) -> boolean
+
+
+
