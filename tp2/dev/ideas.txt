@@ -4,18 +4,29 @@
 
 
 tipos:    
-    tipo sistema
+    tipo heap:
+        guarda:
+            arr
+        
+        metodos:
+            void ordenar()
+            void agregar(t)
+            void borrar(posicion)
+
+
     tipo ciudad: 
         guarda:
             id
             ganancia
             perdida
+            indiceSuperavit
 
 
         metodos:
             devuelveGanancia() -> int
-            devuelvePerdida() -> int
+            devuelvePerdida() -> int            //capaz se van y solo dejo la comparacion
             devuelveSuperavit() -> int
+
             masGananciaQue(ciudad) -> boolean
             masPerdidaQue(ciudad) -> boolean
             masSuperavitQue(ciudad) -> boolean
